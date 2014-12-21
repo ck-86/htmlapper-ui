@@ -1,0 +1,32 @@
+{
+  "name": "htmlapper-ui",
+  "version": "1.0.0",
+  "description": "HTML Apper frontend app made using ReactJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chetan Kantharia <chetan.kantharia@gmail.com>",
+  "license": "ISC",
+  "browserify": {
+    "transform": [
+      "cssify",
+      "reactify"
+    ]
+  },
+  "dependencies": {
+    "jquery": "^2.1.1",
+    "react": "^0.12.1",
+    "react-router": "^0.11.4",
+    "reflux": "^0.2.1"
+  },
+  "devDependencies": {
+    "browserify": "^7.0.0",
+    "cssify": "^0.6.0",
+    "gulp": "^3.8.10",
+    "gulp-jsmin": "^0.1.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-zip": "^2.0.2",
+    "reactify": "^0.17.1"
+  }
+}
