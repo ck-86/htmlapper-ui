@@ -2,6 +2,7 @@
 
 jQuery = $ = require('jquery');
 require('../css/style.css');
+require('../css/animate.css');
 require('./utils.js');
 var React = require('react');
 
